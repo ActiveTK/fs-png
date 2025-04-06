@@ -57,7 +57,7 @@ cd fs-png/bin/
 | `fsMT`     | ファイルシステムの構造データ (File System Master Table) |
 | `fsDF`     | 各ファイルのバイナリデータ本体 (File System Data File) |
 
-![Chunk Image](https://github.com/hibara/TestRepository/blob/master/icons/chunk-image.png)
+![Chunk Image](https://github.com/ActiveTK/fs-png/blob/main/icons/chunk-image.png)
 
 ## 📦 必要ライブラリ・依存
 
