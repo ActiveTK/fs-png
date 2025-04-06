@@ -27,7 +27,7 @@ Windows環境で、PNG画像の中にファイルやディレクトリを隠し�
 
 ###  1. Dokanyの準備
 
-初めに、[こちら](https://github.com/dokan-dev/dokany/releases/download/v2.2.1.1000/DokanSetup.exe)からDokanyをインストールしてください。
+まず初めに、[こちら](https://github.com/dokan-dev/dokany/releases/download/v2.2.1.1000/DokanSetup.exe)からDokanyをインストールしてください。
 
 ###  2. リポジトリの複製
 
@@ -56,6 +56,8 @@ cd fs-png/bin/
 |------------|------|
 | `fsMT`     | ファイルシステムの構造データ (File System Master Table) |
 | `fsDF`     | 各ファイルのバイナリデータ本体 (File System Data File) |
+
+![Chunk Image](https://github.com/hibara/TestRepository/blob/master/icons/chunk-image.png)
 
 ## 📦 必要ライブラリ・依存
 
