@@ -5,8 +5,8 @@ using System;
 public static class Logger
 {
     public enum LogType { INFO, WARN, ERROR, DEBUG }
-    public static bool ShowInfo = true;
-    public static bool ShowDebug = true;
+    public static bool ShowInfo = false;
+    public static bool ShowDebug = false;
     private static StreamWriter _logWriter;
     private static readonly object _lock = new object();
     private static string _logFp = "";
@@ -34,7 +34,7 @@ public static class Logger
 
     public static void Log(LogType type, string msg)
     {
-        if (!ShowInfo)
+        if (!ShowInfo && type == LogType.INFO)
             return;
         if (!ShowDebug && type == LogType.DEBUG)
             return;
